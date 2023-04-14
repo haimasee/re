@@ -1,0 +1,24 @@
+﻿<Window x:Class="k_AND_n.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:k_AND_n"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="b1" Content="" HorizontalAlignment="Left" Margin="42,49,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <Button x:Name="b2" Content="" HorizontalAlignment="Left" Margin="182,49,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <Button x:Name="b3" Content="" HorizontalAlignment="Left" Margin="322,49,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <Button x:Name="b4" Content="" HorizontalAlignment="Left" Margin="42,169,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <Button x:Name="b5" Content="" HorizontalAlignment="Left" Margin="182,169,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <Button x:Name="b6" Content="" HorizontalAlignment="Left" Margin="322,169,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <Button x:Name="b7" Content="" HorizontalAlignment="Left" Margin="42,289,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <Button x:Name="b8" Content="" HorizontalAlignment="Left" Margin="182,289,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <Button x:Name="b9" Content="" HorizontalAlignment="Left" Margin="322,289,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <Button x:Name="starts" Content="Начать игру" HorizontalAlignment="Left" Margin="544,179,0,0" VerticalAlignment="Top" Width="151" Height="70" Click="start" FontFamily="Arial Black" FontSize="14"/>
+        <RadioButton x:Name="kr" Content="Крестики" HorizontalAlignment="Left" Margin="544,49,0,0" VerticalAlignment="Top" Height="30" Width="204" FontFamily="Arial Black" Foreground="White" BorderBrush="Black"/>
+        <RadioButton x:Name="no" Content="Нолики" HorizontalAlignment="Left" Margin="544,14,0,0" VerticalAlignment="Top" Height="30" Width="183" FontFamily="Arial Black" BorderBrush="#FF060606" Foreground="White" RenderTransformOrigin="0.448,-1.846"/>
+        <TextBlock HorizontalAlignment="Left" Margin="460,13,0,0" TextWrapping="Wrap" Text="Вы играете: " VerticalAlignment="Top" FontFamily="Bodoni MT Black" Foreground="White"/>
+    </Grid>
+</Window>
